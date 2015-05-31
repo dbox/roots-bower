@@ -12,7 +12,9 @@ module.exports =
       manifest: 'assets/js/js-manifest.yml'
       out: 'js/build.js'
       minify: true
-    css_pipeline(manifest: "assets/css/css-manifest.yml")
+    css_pipeline
+      manifest: "assets/css/css-manifest.yml"
+      out: "css/master.css"
   ]
 
   stylus:
