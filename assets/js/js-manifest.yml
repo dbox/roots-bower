@@ -1,0 +1,9 @@
+# manifest.yml
+
+# Vendor scripts via bower
+- ../../bower_components/jquery/dist/jquery.js
+- ../../bower_components/rrssb/js/modernizr-2.6.2-respond-1.1.0.min
+- ../../bower_components/rrssb/js/rrssb.min.js
+
+# Main js
+- main.coffee

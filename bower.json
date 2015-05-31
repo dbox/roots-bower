@@ -1,0 +1,21 @@
+{
+  "name": "roots-bower",
+  "version": "0.0.0",
+  "authors": [
+    "Daniel Box <danielbox@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  },
+  "devDependencies": {
+    "rrssb": "~1.8.3"
+  }
+}
