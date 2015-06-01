@@ -6,11 +6,9 @@ Roots w/ Sample Bower Integration
 - run `npm install`
 - run `bower install`
 - run `roots watch`
-- ???
-- do work
 
 ## Usage
-- Install any bower compontent with --save-dev (Currently default location. Change it with .bowerrc)
+- Install any bower compontent with `--save-dev` (Currently default location. Change it with .bowerrc)
 - Refernece bower_components js and css from manifest.yml files
 
 Thanks to @hhsnopek for getting this to work.
