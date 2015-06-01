@@ -8,7 +8,8 @@ Roots w/ Sample Bower Integration
 - run `roots watch`
 
 ## Usage
-- Install any bower compontent with `--save-dev` (Currently default location. Change it with .bowerrc)
+- Install any bower component with `--save-dev` (Currently default location. Change it with .bowerrc)
 - Reference the bower_components' .js and .css in the manifest.yml files
+- If you're using ship to deploy the site, you can get rid of the `after` hook in `app.coffee` then add `ignores: ["public/bower_components/**"]` to your `ship.conf`
 
 Thanks to @hhsnopek for getting this to work.
