@@ -7,11 +7,12 @@ rimraf       = require 'rimraf'
 
 module.exports =
   ignores: [
+    'bower.json',
     'readme.md',
     '**/layout.*',
     '**/_*',
     '.gitignore',
-    'ship.*conf'
+    'ship.*conf',
   ]
 
   extensions: [
