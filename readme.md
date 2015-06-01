@@ -1,5 +1,5 @@
 # roots-bower
-Roots w/ Bower integration
+Roots w/ Sample Bower Integration
 
 ## Setup
 - make sure [node.js](http://nodejs.org) and [roots](http://roots.cx) are installed
@@ -7,4 +7,6 @@ Roots w/ Bower integration
 - run `bower install`
 - run `roots watch`
 - ???
-- help @dbox figure out how to remove `bower_components` from `public` folder
+- do work
+
+Thanks to @hhsnopek for getting this to work.
